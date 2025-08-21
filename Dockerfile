@@ -1,0 +1,9 @@
+FROM postgres:16-alpine
+
+# Gerekli init dosyalarını kopyala
+# COPY docker-entrypoint-initdb.d /docker-entrypoint-initdb.d
+
+# Ortam değişkenleri .env'den yönetilebilir
+# ENV POSTGRES_DB=...
+# ENV POSTGRES_USER=...
+# ENV POSTGRES_PASSWORD=...
